@@ -1,0 +1,123 @@
+
+body{
+    background-image: url("img/mountainpink.jpg");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-container{
+    padding-top: 7px;
+}
+
+.scrolling-navbar{
+    transition: .5s ease-in-out, padding .5s ease-in-out;
+  
+  }
+
+  
+/*start styling the sections*/
+#about{
+    margin-top: 50%;
+ position: relative;
+
+}
+
+#skills{
+    margin-top: 120px;
+ position: relative;
+
+}
+
+#projects{
+    margin-top: 120px;
+   position: relative;
+   
+}
+
+#contact{
+    margin-top: 120px;
+    position: relative;
+    
+}
+
+#education{
+    margin-top: 120px;
+    position: relative;
+    
+}
+
+.iconSize{
+    width: 4vw;
+  
+}
+
+/*end of styling the sections*/
+#navbar a:hover{
+    background-color: hsl(180, 77%, 45%);
+    color: black;
+    border-radius: 4em;
+}
+
+#navbar a .active{
+    background-color: dodgerblue;
+    color: black;
+}
+
+.btn-block:hover{
+    background-color: hsl(180, 77%, 45%);
+    color: black;
+    border-radius: 4em;
+}
+@media screen and (max-width:580px){
+   
+}
+
+.brand-image{
+    border-radius: 6em;
+}
+
+.nav-link i{
+    margin-right: 10px;
+}
+.profile{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 9em;
+    margin-left: 40px;
+}
+
+
+
+.home-card{
+    background-image: url("img/mountainpink.jpg");
+    border-radius: 4em;
+}
+
+.about-card{
+    background-image: url("img/mountainpink.jpg");
+}
+
+.card-title, .card-text{
+color: white;
+
+}
+
+.slide img{
+    height: 35vw;
+    width: 100%;
+    border-radius: 3em;
+}
+
+.skills-card{
+    background-color: rgba(112, 101, 101, 0.3);
+}
+
+/*Style the About me title*/
+.abt-title{
+  font-size: 48px;
+  background-color: rgba(140, 140, 140, 0.8);
+  color: #ddd;
+  text-decoration: underline;
+border-radius: 20em;
+}
+
