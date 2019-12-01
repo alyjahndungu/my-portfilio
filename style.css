@@ -18,34 +18,49 @@ body{
   
 /*start styling the sections*/
 #about{
-    margin-top: 50%;
+  
  position: relative;
- 
+padding-bottom: 30px;
+ padding-top: 12%;
 }
 
 #skills{
-    margin-top: 120px;
+ 
  position: relative;
- font-family: 'Poppins' Poppins-Bold;
+ margin: 0 auto;
+ padding-bottom: 30px;
+ padding-top: 12%;
+
  
 }
 
 #projects{
-    margin-top: 120px;
+    padding-top: 12%;
    position: relative;
+   margin: 0 auto;
+   padding-bottom: 30px;
    
    
 }
 
 #contact{
-    margin-top: 120px;
+    padding-top: 12%;
     position: relative;
-    
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
-#education{
-    margin-top: 120px;
+#expirience{
+    padding-top: 12%;
     position: relative;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+#education{
+    padding-top: 12%;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 30px;
     
 }
 
@@ -54,11 +69,12 @@ body{
   
 }
 
+
 /*end of styling the sections*/
 #navbar a:hover{
-    background-color: hsl(180, 77%, 45%);
+    background-color: hsl(219, 78%, 51%);
     color: black;
-    border-radius: 4em;
+    border-radius: 9em;
 }
 
 #navbar a .active{
@@ -96,6 +112,11 @@ body{
     border-radius: 4em;
 }
 
+.exp-card{
+    
+        background-image: url("img/mountainpink.jpg");
+    
+}
 .about-card{
     background-image: url("img/mountainpink.jpg");
 }
@@ -112,7 +133,8 @@ color: white;
 }
 
 .skills-card{
-    background-color: rgba(112, 101, 101, 0.3);
+    background-color: rgba(112, 101, 101, 0.8);
+ 
 }
 
 /*Style the About me title*/
